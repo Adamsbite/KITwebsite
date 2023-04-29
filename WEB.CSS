@@ -1,0 +1,347 @@
+*{
+padding: 0;
+margin: 0;
+font-family: sans-serif ;
+}
+#header {
+    height: 100vh;
+    background-image: url(images/background.png);
+background-position: center;
+    background-size: cover;
+}
+.container{
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.logo{
+    margin-top: 30px;
+    width: 100px;
+}
+.header-text{
+max-width: 350px;
+margin-top: 0px;
+}
+h1{
+    font-size: 34px;
+}
+.square{
+    height: 12px;
+    width: 12px;
+    display: inline-block ;
+    background: chartreuse;
+    margin: 15px;
+    
+}
+.common-btw{
+    padding: 18px 4px;
+    background: transparent ;
+    outline: 20px;
+    border: 2px solid plum;
+    font-weight: 30px bold;
+    cursor: pointer;
+
+}
+p{
+    font-size: 15px ;
+    line-height: 18px;
+    color: black;
+}
+.header-text button{
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.line-1{
+    width: 15px;
+    height: 15px;
+    background: red;
+    display: inline-block;
+}
+.line-2{
+    width: 80px;
+    height: 1px;
+    background: red;
+    display: inline-block;
+}
+.line-3{
+    width: 60px;
+    height: 1px;
+    background: #f67c92;
+    display: inline-block;
+}
+.line{
+    line-height: 8px  ;
+}
+#sidenav{
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    right: -250px;
+    top: 0;
+    background:   #480rgb(100, 11, 116)
+    z-index: 2;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 50px 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: rgb(117, 12, 12);
+}
+
+#menubtn{
+    width: 50px;
+    position: fixed;
+    right: 65px;
+    top: 35px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+/*.....about.....*/
+#about, #offer {
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.aboutleftcol{
+    flex-basis: 50%;
+}
+.aboutleftcol img{
+    width: 100%;
+}
+.aboutrightcol{
+    flex-basis: 50%;
+    text-align: right;
+}
+h1{ 
+    text-align: left;
+}
+.abouttext{
+    max-width: 500px;
+    margin-right: 100px;
+    display: inline-block;
+    text-align: justify;
+}
+.abouttext h2{
+    margin: 50px 0 10px;
+    font-size: 28px ;
+    font-style: italic;
+}
+
+.abouttext h3{
+     
+    font-size: 20px ;
+    font-style: italic;
+    color: #797979;
+}
+features
+
+#features{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.featurerow{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.featurecol{
+    flex-basis: 25%;
+    text-align: center;
+}
+.featurecol img{
+    width: 150px;
+}
+.featurecol h4{
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight:400 ;
+}
+.featurebtn{
+    margin: 80px auto 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.featurebtn .line{
+    text-align: right;
+    display: inline-block;
+    margin-right: 20px;
+}
+/*.....course.....*/
+#courses{
+    padding: 100px 0;
+}
+.course-row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}  
+.course-right-col{
+    flex-basis: 50%;
+}
+.course-right-col img{
+    width: 50%;
+}
+.course-left-col{
+    flex-basis: 50% ;
+}
+.course-text{
+    max-width: 450px;
+}
+ .course-text button{
+    margin: 30px 0;
+ }
+ /*.....offer.....*/
+#offer button{
+    margin:  0px 0px;
+}
+ /*.....contact.....*/
+.contact-row{
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+}
+.contact-left-col,  .contact-right-col{
+flex-basis: 50%;
+}
+.contact-right-col img{
+    width: 100% ;
+}
+.form{
+max-width: 350px;
+margin: 30px 0 ;
+}
+form input{
+    width: 70%;  
+    padding: 12px 10px;
+    margin-bottom: 5px;
+    outline: none;
+    box-shadow: none;
+    box-sizing: border-box;
+    border: 2px solid #fab;
+}
+.btn-box{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-box button{
+    flex-basis: 48%;
+}
+#footer {
+    padding: 70px 20px 30px;
+}
+.hr{
+    width: 100%;
+    border: 0;
+    border-top: 5px solid;
+}
+.footer-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-left-col{
+    flex-basis: 50%;
+    margin-top: 60px;
+}
+.footer-right-col{
+    flex-basis: 35%;
+}
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.link-title h4 {
+    color: #f67c92 ;
+    margin-bottom: 20px;
+
+}
+.link-title small{
+    font-size: 13px;
+    color: aqua;
+}
+.footer-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-logo img{
+    width: 100px;
+}
+.footer-logo button{
+    padding: 12px 38px;
+    font-size: 10px; 
+}
+.copyright-text, .footer-logo{
+    flex-basis: 20%;
+}
+ /*.....contact.....*/
+.social-icons{
+    width: 50px;
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50);
+    z-index:    1;
+}
+.social-icons img{
+    display: block;
+    width: 20px;
+    margin: 0 auto 20px;
+    cursor: pointer;
+}
+@media only screen and (max-width:770px){
+    #header{
+        background-image: none;
+    }
+    .container{
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    .logo{
+        margin-top: 27px;
+        width: 70px;
+    }
+    .header-text{
+     margin-top: 100px;
+    }
+    h1{
+        font-size: 25px;
+    }
+
+    #menubtn{
+        width: 40px;
+        right: 50px;
+    }
+
+    .common-btw{
+        padding: 10px 16px; 
+    }
+
+    .common-btw{
+        padding: 8px 4px;
+        background: transparent ;
+        outline: 20px;
+        border: 2px solid plum;
+        font-weight: 30px bold;
+        cursor: pointer;
+    
+    }
+
+.social-icons img{
+    width: 14px;
+    margin: 15xp auto 20px;
+}
+}
